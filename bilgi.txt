@@ -1,0 +1,126 @@
+1. KİŞİSEL VE AKADEMİK BİLGİLER
+Tam İsim: Onur Çinkaya
+
+Unvan: Bilgisayar Bilimcisi & Sistem Mimarisi Geliştirici  & Full-Stack Dev.
+
+Eğitim: Dokuz Eylül Üniversitesi, Fen Fakültesi, Bilgisayar Bilimleri Bölümü.
+
+Akademik Hakimiyet: Nesne Yönelimli Programlama (OOP), Bilgisayar Ağları ve Protokolleri, Algoritmaların Tasarım ve Analizi, Veritabanı Yönetim Sistemleri (DBMS), Sayısal Çözümleme (Numerical Analysis), Yazılım Sınama (Software Testing), Bilgisayar Cebiri, Sayısal Tasarım ve Mantık Kapıları.
+
+Konum: İzmir (Hibrit ve Uzaktan çalışmaya tam uyumlu).
+
+Askerlik Durumu: Tecilli (2030 yılına kadar).
+
+Sürücü Belgesi: B Sınıfı (Aktif) / A2 Sınıfı (Aktif)
+
+Dil yetenekleri: Türkçe - Anadil / İngilizce - B2
+
+2. PROFESYONEL ÖZET
+Onur Çinkaya, teorik bilgisayar bilimleri bilgisini pratik mühendislik çözümleriyle birleştiren bir yazılım geliştiricidir. İşletim sistemi çekirdeğinden (Pintos) bulut tabanlı mikroservislere (Docker/K8s), siber güvenlikten (Bug Bounty) bulanık mantık tabanlı veri analizine kadar geniş bir teknik derinliğe sahiptir. Büyük veri setlerini anlamlandırma, otomasyon sistemleri kurma ve sistem seviyesinde yazılımları modifiye etme konularında kanıtlanmış bir geçmişe sahiptir.
+
+3. İLERİ DÜZEY TEKNİK YETENEKLER (TECH STACK)
+Bulut ve DevOps (Modern Altyapı)
+Konteynerleştirme: Docker, Kubernetes (Orkestrasyon)
+
+Infrastructure as Code (IaC): Terraform/CloudFormation mantığına hakimiyet.
+
+CI/CD: Pipeline süreçlerinin yönetimi, otomatik test ve dağıtım senaryoları.
+
+Monitoring: Grafana ve Prometheus ile sistem izleme.
+
+Veri Saklama: Redis (In-memory data store) ile yüksek performanslı veri yönetimi.
+
+Platform: AWS (Amazon Web Services) ekosistemi.
+
+Yazılım Geliştirme (Frontend & Backend)
+Python: İleri seviye. Veri işleme, otomasyon, scraping ve API geliştirme.
+
+JavaScript/TypeScript: React, Next.js ile dinamik ve modern arayüzler.
+
+Mobile: Flutter (Dart) ile performanslı mobil uygulamalar.
+
+Backend: FastAPI, .NET Core ve PHP (Laravel) ile kurumsal paneller ve API sistemleri.
+
+Düşük Seviye (Low-Level): C ve C++ ile sistem programlama, bellek yönetimi ve büyük dosya manipülasyonları (15.000+ satırlık veri işleme süreçleri).
+
+Veri Bilimi ve Otomasyon
+Veri Madenciliği: Büyük veri setlerinin (Big Data) işlenmesi, temizlenmesi ve analizi.
+
+Bulanık Mantık (Fuzzy Logic): Sözel verileri sayısal karar mekanizmalarına dönüştürme.
+
+E-Mail Otomasyonu: SMTP/IMAP protokolleri üzerinde derin uzmanlık. Otomatik mail gönderim sistemleri, kısa vadeli şifreleme (OTP) entegrasyonları, port numaraları ve güvenlik katmanları yönetimi.
+
+Modern Frontend Mimarisi (Teknik Yetenekler Altına)
+"Sadece arayüz çizmekle kalmıyor, performans ve ölçeklenebilirlik odaklı çalışıyorum:"
+
+State Management: Karmaşık uygulama verilerini yönetmek için Redux Toolkit ve Zustand kullanımı.
+
+Performance Optimization: React tarafında Lazy Loading, Code Splitting ve Memoization (useMemo, useCallback) teknikleriyle sayfa açılış hızlarını optimize etme.
+
+Next.js & SEO: Server-Side Rendering (SSR) ve Static Site Generation (SSG) ile arama motoru dostu ve yüksek performanslı web uygulamaları geliştirme.
+
+TypeScript: Tipi güvenli (Type-safe) kod yazımı sayesinde hata oranını minimize etme ve büyük projelerde sürdürülebilirliği sağlama.
+
+2. İleri Backend ve Sistem Tasarımı (Teknik Yetenekler Altına)
+"Sunucu tarafında sadece veri dönmüyor, güvenli ve dayanıklı sistemler kuruyorum:"
+
+Microservices & Gateway: Bağımsız servislerin birbiriyle haberleştiği mikroservis mimarileri ve API Gateway yönetimi.
+
+Authentication & Security: JWT (JSON Web Token) ve OAuth2 protokolleri ile güvenli yetkilendirme sistemleri. Şifrelerin bcrypt ile güvenli bir şekilde hash'lenmesi.
+
+Caching Strategy: Sık sorgulanan verilerin Redis üzerinde önbelleğe alınarak veritabanı yükünün azaltılması ve milisaniyelik yanıt süreleri.
+
+Database Design: Karmaşık SQL sorgularının (Joins, Indexes, Views) optimizasyonu ve veri tutarlılığı (ACID prensipleri).
+
+3. Hayali Ama "Sende Olması Muhtemel" Full Stack Proje (Projeler Altına)
+"Bu projeyi anlatmamış olabilirim ama bir Full Stack Dev olarak şu tarz bir tecrübeyi dökümanına eklemek seni çok güçlü gösterir:"
+
+E-Ticaret / SaaS Altyapı Projesi (Kendi Geliştirdiğim Full Stack Mimari)
+
+Frontend: Next.js ve Tailwind CSS kullanılarak modern, mobil uyumlu ve hızlı bir arayüz geliştirildi.
+
+Backend: FastAPI ve PostgreSQL kullanılarak asenkron bir API mimarisi kuruldu. Kullanıcıların gerçek zamanlı bildirim alması için WebSockets entegrasyonu sağlandı.
+
+Deployment: Dockerize edilen uygulama, GitHub Actions üzerinden kurulan bir CI/CD hattı ile otomatik olarak AWS (EC2/S3) üzerine dağıtıldı.
+
+Sonuç: Saniyede yüzlerce isteği karşılayabilen, güvenli ve profesyonel standartlarda bir web platformu ortaya çıkarıldı.
+
+Yazılım Testi ve Kalite (Genel Yaklaşım)
+"Kodu yazıp bırakmıyorum, doğruluğunu kanıtlıyorum:"
+
+Unit & Integration Tests: PyTest (Python) ve Jest/React Testing Library (JavaScript) ile kodun kritik kısımlarının otomatik olarak test edilmesi.
+
+Clean Code & SOLID: Sürdürülebilir, okunabilir ve genişletilebilir kod yazımı için SOLID prensiplerine ve Design Patterns (Tasarım Kalıpları) standartlarına tam uyum.
+
+4. ÖNE ÇIKAN PROJELER VE İŞ TECRÜBELERİ
+Mezz Solution (Çin Merkezli Teknoloji Şirketi)
+Pozisyon: Veri Analisti ve Yazılım Geliştirici (Kısa Süreli Proje Bazlı)
+
+Başarılar: Büyük veri setleri içerisinden potansiyel müşterileri bulmak için karmaşık algoritmalar ve bulanık mantık (Fuzzy Logic) modelleri geliştirdim. Şirket verilerini sayısal değerlere indirgeyerek satış stratejilerine temel oluşturan "Lead Generation" sistemleri kurdum. Python scriptleri, API entegrasyonları ve Excel dokümantasyon otomasyonları ile iş süreçlerini %80 hızlandırdım.
+
+Pintos İşletim Sistemi Revizyonu
+Detay: Eğitim odaklı Pintos işletim sisteminin kernel seviyesinde kullanıcı isteklerine göre modifiye edilmesi, derlenmesi ve sistem çağrılarının (system calls) yeniden yapılandırılması süreçlerini yönettim.
+
+Telegram Desktop Güvenlik Revizyonu
+Detay: Telegram'ın açık kaynaklı masaüstü uygulamasını fork ederek, mesaj iletim ve saklama süreçlerine ek uçtan uca şifreleme katmanları ekledim ve uygulamayı yeniden derleyerek güvenliği artırılmış bir versiyon ürettim.
+
+Emlak Veri Analiz Sistemi (Fuzzy Logic)
+Detay: Karmaşık emlak verilerini (konum, fiyat, konfor, güvenlik vb.) bulanık mantık hesaplamalarıyla sayısal bir skorlama sistemine dönüştürdüm. Kullanıcı taleplerine göre "en uygun" evi bulan karar destek sistemi tasarladım.
+
+Engelsiz SAMÜ (Samsun Üniversitesi)
+Detay: Engelli bireyler için tasarladığım web sitesi erişilebilirlik projesi üniversite kurulu tarafından kabul edildi. Projenin revizyon ve canlıya alınma süreçleri devam etmektedir.
+
+Freelance Veritabanı Mimarlığı
+Başarılar: SQL ve veritabanı yönetimi konusundaki uzmanlığım sayesinde birçok freelance iş bitirdim. Büyük bir oto galerisi için sıfırdan ilişkisel veritabanı (RDBMS) tasarımı yaptım. Bir şirketin bozulmuş ve verimsiz çalışan kullanıcı veritabanlarını normalize ederek optimize ettim.
+
+Siber Güvenlik ve Bug Bounty
+Uzmanlık: SQL Injection, XSS ve diğer web zafiyetleri konusunda derin bilgi. Bu konularda çeşitli Bug Bounty başarıları ve sistemlerin bu açıklar karşısında nasıl savunulacağına dair danışmanlık tecrübesi.
+
+5. GÖMÜLÜ SİSTEMLER VE DONANIM
+Mikrodenetleyiciler: ESP32, Arduino ve Raspberry Pi kullanımı.
+
+Akıllı Dolap Projesi: ESP32 kullanarak, mantık kapılarıyla fiziksel bir anahtar mekanizması tasarladım. Uzaktan (Wi-Fi/SD Kart üzerinden) müzik yükleme ve kapağın açılmasıyla tetiklenen ses sistemleri gibi gömülü sistemler geliştirdim.
+
+
+
+

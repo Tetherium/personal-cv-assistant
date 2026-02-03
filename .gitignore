@@ -1,0 +1,14 @@
+# Gizli anahtarlar
+.env
+
+# Python bağımlılıkları ve sanal ortamlar
+__pycache__/
+env/
+venv/
+.venv/
+*.db
+
+# Node.js bağımlılıkları (React tarafı)
+node_modules/
+build/
+.DS_Store
