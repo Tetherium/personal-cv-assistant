@@ -5,13 +5,14 @@ from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from openai import OpenAI
 from dotenv import load_dotenv
+from fastapi.responses import PlainTextResponse
 
 # Gizli değişkenleri yükle
 load_dotenv()
 
 app = FastAPI()
 
-@app.get("/health")
+@app.get("/health", response_class=PlainTextResponse)
 async def health_check():
     return "ok"
 
