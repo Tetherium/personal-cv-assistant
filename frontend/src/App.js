@@ -43,8 +43,7 @@ function App() {
     setIsLoading(true);
 
     try {
-      const response = await axios.get(`https://onur-cv-ai.onrender.com//sor?soru=${encodeURIComponent(input)}&dil=${language}`);
-      //const response = await axios.get(`http://127.0.0.1:8000/sor?soru=${encodeURIComponent(input)}&dil=${language}`);
+      const response = await axios.get(`https://onur-cv-ai.onrender.com/sor?soru=${encodeURIComponent(input)}&dil=${language}`);
       const botMessage = { text: response.data.cevap, sender: 'bot' };
       setMessages((prev) => [...prev, botMessage]);
     } catch (error) {
