@@ -6,7 +6,7 @@ import { Menu, X } from 'lucide-react';
 import './App.css';
 
 function App() {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(window.innerWidth > 768);
   const [theme, setTheme] = useState('dark'); // 'dark' or 'light'
   const [language, setLanguage] = useState('tr'); // 'tr' or 'en'
   const [messages, setMessages] = useState([]);
@@ -61,6 +61,11 @@ function App() {
       <button className="mobile-menu-btn" onClick={toggleSidebar}>
         {isSidebarOpen ? <X size={24} /> : <Menu size={24} />}
       </button>
+
+      {/* Mobile Overlay to close sidebar */}
+      {isSidebarOpen && window.innerWidth <= 768 && (
+        <div className="mobile-overlay" onClick={() => setIsSidebarOpen(false)}></div>
+      )}
 
       <Sidebar
         isOpen={isSidebarOpen}

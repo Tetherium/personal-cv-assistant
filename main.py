@@ -60,13 +60,13 @@ def get_ip_info(ip: str):
 def telegram_log_gonder(soru: str, cevap: str, request: Request, sehir: str, sure: float, ip: str):
     token = os.getenv("TELEGRAM_TOKEN")
     chat_id = os.getenv("TELEGRAM_CHAT_ID")
-    
+        
     # Kullanıcı bilgilerini al
     user_agent = request.headers.get('user-agent', 'Bilinmiyor')
     
     # Telegram mesaj formatı (Markdown)
     mesaj = (
-        f"🚀 *Yeni CV Asistanı Sorgusu*\n"
+        f"✅ *GÜNCEL CV Asistanı Sorgusu*\n"
         f"---------------------------\n"
         f"📍 *IP:* `{ip}`\n"
         f"🌍 *Konum:* `{sehir}`\n"

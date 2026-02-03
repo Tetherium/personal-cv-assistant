@@ -52,6 +52,8 @@ body {
 .app-container {
     display: flex;
     height: 100vh;
+    /* Fallback */
+    height: 100dvh;
     width: 100vw;
     overflow: hidden;
 }
@@ -89,6 +91,9 @@ body {
         left: 0;
         top: 0;
         height: 100vh;
+        /* Fallback */
+        height: 100dvh;
+        z-index: 300;
         box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
     }
 
@@ -97,8 +102,18 @@ body {
     }
 
     /* When sidebar is open on mobile, maybe dim the content? */
-    .sidebar-open .chat-container {
-        opacity: 0.5;
-        pointer-events: none;
+    /* .sidebar-open .chat-container opacity handled by overlay now */
+
+
+    .mobile-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100dvh;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 250;
+        /* Below sidebar (300) but above everything else */
+        backdrop-filter: blur(2px);
     }
 }
