@@ -65,7 +65,7 @@ const Sidebar = ({ isOpen, toggleSidebar, theme, toggleTheme, language, toggleLa
 
                     {expandedSections.cv && (
                         <div className="section-content">
-                            <a href="#" className="sidebar-link">{t.turkceCv}</a>
+                            <a href="/OnurCinkayaCV.pdf" className="sidebar-link">{t.turkceCv}</a>
                             <a href="#" className="sidebar-link">{t.englishCv}</a>
                         </div>
                     )}
@@ -104,11 +104,11 @@ const Sidebar = ({ isOpen, toggleSidebar, theme, toggleTheme, language, toggleLa
                     </button>
                     {expandedSections.contact && (
                         <div className="section-content">
+
+
+
                             <div className="contact-item">
-                                <Phone size={14} /> <span>+90 505 095 01 32</span>
-                            </div>
-                            <div className="contact-item">
-                                <Mail size={14} /> <span>onur.zn51@gmail.com</span>
+                                <Mail size={14} /> <span>onurcinkaya26@gmail.com</span>
                             </div>
                         </div>
                     )}

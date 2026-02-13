@@ -12,9 +12,9 @@ load_dotenv()
 
 app = FastAPI()
 
-@app.get("/health", response_class=PlainTextResponse)
+@app.get("/health")
 async def health_check():
-    return "ok"
+    return {"status": "ok", "message": "I am alive!"}
 
 # React ile konuşmak için CORS ayarı
 app.add_middleware(
