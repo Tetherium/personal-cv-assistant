@@ -113,6 +113,8 @@ You can receive a Telegram notification for every question asked. To enable:
 1. Create a bot via [@BotFather](https://t.me/BotFather) and get your token.
 2. Get your Chat ID via [@userinfobot](https://t.me/userinfobot).
 3. Fill in `.env`:
+
+4. ![preview](telegram_bot.png)
 ```
 TELEGRAM_TOKEN=YOUR_TOKEN
 TELEGRAM_CHAT_ID=YOUR_CHAT_ID
