@@ -1,39 +1,23 @@
 import React, { useState } from 'react';
 import {
-    User,
-    FileText,
-    Share2,
-    Settings,
-    ChevronDown,
-    ChevronRight,
-    Github,
-    Linkedin,
-    Phone,
-    Mail,
-    Moon,
-    Sun,
-    Globe,
-    ChevronUp
+    FileText, Share2, Settings,
+    ChevronDown, ChevronRight, ChevronUp,
+    Github, Linkedin, Phone, Mail,
+    Moon, Sun, Globe
 } from 'lucide-react';
 import { translations } from '../translations';
 import './Sidebar.css';
 
-const Sidebar = ({ isOpen, toggleSidebar, theme, toggleTheme, language, toggleLanguage }) => {
-    // Initialize all sections as false (collapsed)
+const Sidebar = ({ isOpen, toggleTheme, theme, language, toggleLanguage }) => {
     const [expandedSections, setExpandedSections] = useState({
         cv: false,
         social: false,
         contact: false
     });
-
-    // State for settings menu
     const [isSettingsOpen, setIsSettingsOpen] = useState(false);
 
     const toggleSection = (section) => {
-        setExpandedSections(prev => ({
-            ...prev,
-            [section]: !prev[section]
-        }));
+        setExpandedSections(prev => ({ ...prev, [section]: !prev[section] }));
     };
 
     const t = translations[language].sidebar;
@@ -45,7 +29,8 @@ const Sidebar = ({ isOpen, toggleSidebar, theme, toggleTheme, language, toggleLa
             <div className="sidebar-header">
                 <div className="profile-section">
                     <div className="profile-image-container">
-                        <img src="/aipp.png" alt="Profile" className="profile-image" />
+                        {/* Place your profile photo in frontend/public/ and update the src below */}
+                        <img src="/profile.png" alt="Profile" className="profile-image" />
                     </div>
                     <h3>{t.profileName}</h3>
                     <p className="profile-desc">{t.profileDesc}</p>
@@ -62,11 +47,11 @@ const Sidebar = ({ isOpen, toggleSidebar, theme, toggleTheme, language, toggleLa
                         </div>
                         {expandedSections.cv ? <ChevronDown size={16} /> : <ChevronRight size={16} />}
                     </button>
-
                     {expandedSections.cv && (
                         <div className="section-content">
-                            <a href="/OnurCinkayaCV.pdf" className="sidebar-link">{t.turkceCv}</a>
-                            <a href="#" className="sidebar-link">{t.englishCv}</a>
+                            {/* Place your CV PDFs in frontend/public/ and update the href below */}
+                            <a href="/YOUR_CV_TR.pdf" target="_blank" rel="noopener noreferrer" className="sidebar-link">{t.turkceCv}</a>
+                            <a href="/YOUR_CV_EN.pdf" target="_blank" rel="noopener noreferrer" className="sidebar-link">{t.englishCv}</a>
                         </div>
                     )}
                 </div>
@@ -80,13 +65,13 @@ const Sidebar = ({ isOpen, toggleSidebar, theme, toggleTheme, language, toggleLa
                         </div>
                         {expandedSections.social ? <ChevronDown size={16} /> : <ChevronRight size={16} />}
                     </button>
-
                     {expandedSections.social && (
                         <div className="section-content">
-                            <a href="https://www.linkedin.com/in/onur-%C3%A7inkaya-737432259/" target="_blank" rel="noopener noreferrer" className="sidebar-link">
+                            {/* Replace with your own LinkedIn and GitHub URLs */}
+                            <a href="https://www.linkedin.com/in/YOUR-LINKEDIN/" target="_blank" rel="noopener noreferrer" className="sidebar-link">
                                 <Linkedin size={16} /> LinkedIn
                             </a>
-                            <a href="https://github.com/Tetherium" target="_blank" rel="noopener noreferrer" className="sidebar-link">
+                            <a href="https://github.com/YOUR-GITHUB" target="_blank" rel="noopener noreferrer" className="sidebar-link">
                                 <Github size={16} /> GitHub
                             </a>
                         </div>
@@ -104,11 +89,9 @@ const Sidebar = ({ isOpen, toggleSidebar, theme, toggleTheme, language, toggleLa
                     </button>
                     {expandedSections.contact && (
                         <div className="section-content">
-
-
-
+                            {/* Replace with your email address */}
                             <div className="contact-item">
-                                <Mail size={14} /> <span>onurcinkaya26@gmail.com</span>
+                                <Mail size={14} /> <span>your.email@example.com</span>
                             </div>
                         </div>
                     )}
@@ -128,7 +111,6 @@ const Sidebar = ({ isOpen, toggleSidebar, theme, toggleTheme, language, toggleLa
                         </button>
                     </div>
                 )}
-
                 <button className="settings-btn" onClick={() => setIsSettingsOpen(!isSettingsOpen)}>
                     <div className="settings-label">
                         <Settings size={20} />

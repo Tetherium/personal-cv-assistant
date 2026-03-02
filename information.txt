@@ -1,0 +1,57 @@
+1. PERSONAL & ACADEMIC INFORMATION
+Full Name: [YOUR FULL NAME]
+
+Title: [Your Title - e.g., Full-Stack Developer]
+
+Education: [University Name], [Faculty], [Department].
+
+Academic Background: [Courses and areas of expertise]
+
+Location: [City] (Fully available for hybrid and remote work).
+
+Military Status: [e.g., Deferred until 2030]
+
+Driver's License: [Class]
+
+Languages: [Language] - [Level] / [Language] - [Level]
+
+2. PROFESSIONAL SUMMARY
+[Write a 2-3 sentence summary about yourself. Describe your areas of expertise, the types of projects you've worked on, and what makes you unique.]
+
+3. TECHNICAL SKILLS (TECH STACK)
+
+Programming Languages:
+[Language 1], [Language 2], [Language 3]
+
+Frontend:
+[Framework/library list]
+
+Backend:
+[Framework/library list]
+
+Mobile:
+[Technology list]
+
+Database:
+[Technology list]
+
+DevOps & Cloud:
+[Technology list]
+
+4. FEATURED PROJECTS & WORK EXPERIENCE
+
+[Company/Project Name 1]
+Position: [Your Position]
+Achievements: [Describe what you did and your contributions]
+
+[Company/Project Name 2]
+Position: [Your Position]
+Achievements: [Describe what you did and your contributions]
+
+5. EDUCATION & CERTIFICATIONS
+[Certificate Name] - [Institution] - [Year]
+
+6. CONTACT
+Email: [YOUR EMAIL ADDRESS]
+LinkedIn: [LinkedIn URL]
+GitHub: [GitHub URL]

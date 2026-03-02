@@ -113,7 +113,6 @@ body {
         height: 100dvh;
         background: rgba(0, 0, 0, 0.5);
         z-index: 250;
-        /* Below sidebar (300) but above everything else */
         backdrop-filter: blur(2px);
     }
 }
