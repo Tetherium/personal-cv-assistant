@@ -4,7 +4,7 @@ An AI-powered personal assistant that answers questions about you — built with
 
 Recruiters and visitors can ask anything about your experience, skills, and projects in a natural chat interface.
 
-![preview](preview.png)
+![preview](preview_desktop.png)
 
 ---
 
