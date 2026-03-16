@@ -1,4 +1,4 @@
-# 🤖 Personal AI CV Assistant
+#  Personal AI CV Assistant
 
 An AI-powered personal assistant that answers questions about you — built with **React** (frontend), **FastAPI** (backend), and **Google Gemini** (AI).
 
@@ -8,18 +8,18 @@ Recruiters and visitors can ask anything about your experience, skills, and proj
 
 ---
 
-## ✨ Features
+##  Features
 
-- 💬 Chat interface powered by Google Gemini AI
-- 🌍 English / Turkish language toggle
-- 🌗 Dark / Light theme toggle
-- 📄 CV download links (Turkish & English)
-- 🔗 Social media & contact section in a collapsible sidebar
-- 📲 Optional Telegram logging for each query
+-  Chat interface powered by Google Gemini AI
+-  English / Turkish language toggle
+-  Dark / Light theme toggle
+-  CV download links (Turkish & English)
+-  Social media & contact section in a collapsible sidebar
+-  Optional Telegram logging for each query
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -30,7 +30,7 @@ Recruiters and visitors can ask anything about your experience, skills, and proj
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Python 3.9+
@@ -93,7 +93,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 🎨 Customization
+##  Customization
 
 | What | Where |
 |------|-------|
@@ -122,7 +122,7 @@ TELEGRAM_CHAT_ID=YOUR_CHAT_ID
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 personal-cv-assistant/
