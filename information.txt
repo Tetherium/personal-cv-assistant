@@ -13,7 +13,7 @@ Military Status: [e.g., Deferred until 2030]
 
 Driver's License: [Class]
 
-Languages: [Language] - [Level] / [Language] - [Level]
+Languages: [Language] - [Level] / [Language] - [Level]  
 
 2. PROFESSIONAL SUMMARY
 [Write a 2-3 sentence summary about yourself. Describe your areas of expertise, the types of projects you've worked on, and what makes you unique.]
